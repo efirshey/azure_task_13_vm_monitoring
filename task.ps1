@@ -43,7 +43,6 @@ New-AzVm `
 -VirtualNetworkName $virtualNetworkName `
 -SecurityGroupName $networkSecurityGroupName `
 -SshKeyName $sshKeyName  -PublicIpAddressName $publicIpAddressName `
--AssignIdentity
 
 Write-Host "Installing the TODO web app..."
 $Params = @{
